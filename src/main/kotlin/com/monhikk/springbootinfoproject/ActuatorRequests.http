@@ -1,0 +1,8 @@
+
+# /actuator fetches list of actuator endpoints
+GET localhost:8080/actuator
+
+###
+
+# /health fetches list of health indicator
+GET localhost:8080/actuator/health
