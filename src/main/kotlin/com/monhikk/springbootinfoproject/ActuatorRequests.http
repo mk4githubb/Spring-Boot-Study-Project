@@ -6,3 +6,9 @@ GET localhost:8080/actuator
 
 # /health fetches list of health indicator
 GET localhost:8080/actuator/health
+
+
+###
+
+# /ping endpoint GET Request
+GET localhost:8080/ping

@@ -23,6 +23,9 @@ dependencies {
     // Add actuator dependency -> automatically add actuator endpoints at base path /actuator
     implementation("org.springframework.boot:spring-boot-starter-actuator")
 
+    // Adding AOP dependency
+    implementation("org.springframework.boot:spring-boot-starter-aop:2.6.4")
+
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
